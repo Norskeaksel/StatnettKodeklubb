@@ -54,13 +54,13 @@ def fjern_spor_hvis_man_ikke_har_flyttet(x,y):
     global har_flyttet
     global spor 
     if har_flyttet == False:
-        print("| SURFACE |")
+        print("| SURFACE |", end="")
         spor = [[0]*15 for i in range(15)]
         spor[y][x] = 1
     
 def skyt_torpedo_hvis_mulig(tx, ty, torpedo_cooldown):
     if torpedo_cooldown == 0:
-        print("|TORPEDO",x,y,"|", end="")
+        print("|TORPEDO",tx,ty,"|", end="")
 
 
 def xy_posisjon():
@@ -97,9 +97,5 @@ for trekk_nr in range(1000):
     #har_kommmet_seg_til_sektor9(x,y) # Oppgave 1
     #har_overlevd_i_60_trekk(trekk_nr) # Oppgave 2
     #har_vunnet_over_motstanderen_med_torpedoer() # Oppgave 3
-    
-    skyt_torpedo_hvis_mulig(x,y+2, torpedo_cooldown)
-    flytt_ned_hvis_mulig()
-    flytt_hoyre_hvis_mulig()
-    flytt_opp_hvis_mulig()
-    flytt_venstre_hvis_mulig()
+
+    # Din kode her 
