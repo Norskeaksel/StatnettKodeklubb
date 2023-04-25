@@ -93,9 +93,9 @@ for trekk_nr in range(1000):
     har_flyttet = False
     # Oppgaver. De kan kommenteres ut når de er løst med "#" 
 
-    #har_gjort_ett_trekk(x, y) # Oppgave 0
-    #har_kommmet_seg_til_sektor9(x,y) # Oppgave 1
-    #har_overlevd_i_60_trekk(trekk_nr) # Oppgave 2
-    #har_vunnet_over_motstanderen_med_torpedoer() # Oppgave 3
+    har_gjort_ett_trekk(x, y) # Oppgave 0
+    har_kommmet_seg_til_sektor9(x,y) # Oppgave 1
+    har_overlevd_i_60_trekk(trekk_nr) # Oppgave 2
+    har_vunnet_over_motstanderen_med_torpedoer() # Oppgave 3
 
     # Din kode her 
